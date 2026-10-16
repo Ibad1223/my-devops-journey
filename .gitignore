@@ -125,3 +125,8 @@ Vagrantfile.local
 *.sublime-project
 *.sublime-workspace
 .editorconfig
+   # Secrets and variables
+   .env
+   .env.*
+   *.tfvars
+   *.tfvars.json
